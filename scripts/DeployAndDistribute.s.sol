@@ -22,7 +22,7 @@ contract DeployAndDistribute is Script {
 
         // 5. 分发代币
         token.transfer(user1, 1000 * 1e18);
-        token.transfer(user2, 2000 * 1e18);
+        token.transfer(user2, 2000 * 1e18);  
 
         vm.stopBroadcast();
     }
